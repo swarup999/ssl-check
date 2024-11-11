@@ -3,6 +3,14 @@
 This script checks the SSL certificate status of websites, reporting whether the certificate is valid or expired. It also provides the expiry date and the number of days left before expiration.
 
 ## Usage
+First Clone the repository 
+```bash
+git clone https://github.com/swarup999/ssl-check.git
+```
+Download all the dependencies form `requirements.txt` file 
+```bash
+pip install -r requirements.txt
+```
 
 ### Single Website Check
 To check the SSL certificate of a single website, save the script as `ssl_check.py` and run it from the command line with the following command:
